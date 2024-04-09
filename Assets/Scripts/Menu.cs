@@ -31,7 +31,7 @@ public class Menu : MonoBehaviour
     {
         _volume = Mathf.Lerp(_minVolume, 0, volume);
 
-       if (_isVolumeOn)
+        if (_isVolumeOn)
             _mixer.audioMixer.SetFloat(MasterVolume, _volume);
     }
 
